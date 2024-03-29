@@ -3,6 +3,7 @@ function firstChar(text) {
 	for (let index = 0; index < bound; index++) {
 		if (text[i]!=' ') {
 			console.log(text[i]);
+			break;
 		}
 	}
 	
